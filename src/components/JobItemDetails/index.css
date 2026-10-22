@@ -1,0 +1,77 @@
+.bg-Job-Details {
+  background-color: black;
+  padding: 20px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.bg-card-JobDetails {
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.life-at-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.skill-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.skill-ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  color: white;
+}
+
+.life-at-img {
+  margin-left: 10px;
+  width: 20%;
+  align-self: center;
+}
+
+.anchor-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-anch {
+  text-decoration: none;
+  color: #4f46e5;
+  margin: 5px;
+}
+
+.bg-card-JobDetails-1 {
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.ul-similar-jobs {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

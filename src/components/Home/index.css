@@ -1,0 +1,130 @@
+.head-con {
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.link-remover {
+  text-decoration: none;
+  color: white;
+}
+
+.link-remover-2 {
+  margin-left: auto;
+}
+.home-jobs-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.home-job-container {
+  margin-right: 100px;
+  padding: 0;
+  margin-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-btn {
+  background: transparent;
+  border: none;
+  margin-right: auto;
+}
+.logout-btn {
+  margin-left: auto;
+}
+.bg-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-content {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.job-Head {
+  color: white;
+  font-size: 70px;
+}
+
+.job-para {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.find-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.home-small-container {
+  display: none;
+}
+
+.small-btn-logo {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .bg-img {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  }
+  .head-con {
+    padding: 10px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .bg-img {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  }
+  .logo-head-home {
+    width: 100px;
+  }
+  .job-Head {
+    font-size: 30px;
+    color: white;
+  }
+  .container-content {
+    margin-top: 50px;
+  }
+  .job-para {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .logout-btn {
+    display: none;
+  }
+  .home-job-container {
+    display: none;
+  }
+
+  .home-small-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+  }
+}

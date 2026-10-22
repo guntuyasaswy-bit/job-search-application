@@ -1,0 +1,146 @@
+.jobs-bg {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.left-right-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.left-side-content {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.right-side-content {
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+}
+.img-width {
+  width: auto;
+}
+.profile-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 80%;
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.name-head {
+  color: #4f46e5;
+  font-size: 20px;
+}
+
+.hr {
+  width: 80%;
+}
+
+.jobs-1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.type-of-emp-head {
+  font-size: 20px;
+  color: white;
+}
+
+.li-c {
+  width: 80%;
+}
+
+.prof-img {
+  width: 50px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 35px;
+  margin-bottom: 20px;
+  border: 2px #4f46e5 solid;
+}
+.search-container-1 {
+  display: none;
+}
+.search-input {
+  width: 320px;
+  outline: none;
+  height: 30px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.search-icon {
+  font-size: 25px;
+  background-color: #272727;
+  color: white;
+}
+
+.search-btn {
+  background-color: #272727;
+  border: none;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-wh {
+  color: white;
+}
+@media all and (max-width: 767px) {
+  .left-right-container {
+    flex-direction: column;
+  }
+  .left-side-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .right-side-content {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .para-min {
+    font-size: 10px;
+  }
+  .search-container {
+    display: none;
+  }
+  .search-container-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 2px #4f46e5 solid;
+  }
+}
